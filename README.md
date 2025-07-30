@@ -120,7 +120,13 @@ Create test files in the `tests/` directory. See `tests/test_settings_wifi.py` f
 - **Model not found**: Ensure you've pulled the model with `ollama pull llama3`
 - **Slow responses**: Try a smaller model like `ollama pull mistral:7b`
 - **Out of memory**: Reduce model size or increase your system's RAM/swap space
+## ✅ Final Working Demo Screenshots
 
+### 🔹 Screenshot 1
+![Final Working 1](https://raw.githubusercontent.com/SThor07/Ai_TestTeam/main/Final_Working1.png)
+
+### 🔹 Screenshot 2
+![Final Working 2](https://raw.githubusercontent.com/SThor07/Ai_TestTeam/main/Final_Working2.png)
 ---
 
 Built with ❤️ for better Android QA automation and test improvement.
