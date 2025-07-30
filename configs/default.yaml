@@ -1,0 +1,31 @@
+seed: 1337
+log_dir: data/logs
+trace_dir: data/traces
+report_dir: reports
+
+agent_s:
+  # if you installed Agent-S as a package, you can import its types
+  messaging_backend: "local"
+
+android_world:
+  task: "settings_wifi"  # clock_alarm, email_search, ...
+  render_rgb: true
+
+llm:
+  provider: "ollama"
+  model: "llama3"   # make sure you pulled it with `ollama pull llama3`
+  base_url: "http://localhost:11434"
+  temperature: 0.2
+  max_tokens: 512
+
+supervisor:
+  enabled: true
+  model: "llama3"
+  sample_frames: 20
+
+evaluation:
+  save_report: true
+
+fs_config:
+  screen_dimensions: [1080,1920]
+  interaction_rate_sec: 0.1

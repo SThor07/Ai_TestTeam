@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run QA task",
+      "type": "python",
+      "request": "launch",
+      "program": "scripts/run_task.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--task", "settings_wifi",
+        "--llm.model", "llama3"
+      ],
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
